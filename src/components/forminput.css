@@ -1,0 +1,33 @@
+.form-input {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.form-input label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.form-input input {
+    line-height: 32px;
+    border-radius: 6px;
+    padding-left: 6px;
+    border: 1px solid gray;
+    font-size: 12px;
+}
+
+span {
+    color: red;
+    font-size: 12px;
+    text-align: start;
+    display: none;
+}
+
+form button {
+    width: 100px;
+}
+
+input:invalid~span {
+    display: block;
+}
